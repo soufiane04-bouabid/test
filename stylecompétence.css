@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #007BFF;
+}
+
+.form-container2, .skills-container2 {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container2 input,
+.form-container2 textarea,
+.form-container2 select {
+    padding: 10px;
+    margin-bottom: 7px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.form-container2 select{
+    width: auto;
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    /* justify-items: center; */
+}
+
+
+button {
+    display: inline-block;
+    padding: 0.2rem 1rem; /* Adjust padding for smaller width */
+    width: auto; /* Allow the button to adapt to content */
+    background: #c0392b ;
+    box-shadow: 0 0 25px #c0392b;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center; /* Center-align text */
+    margin: 0 auto; /* Center horizontally within the form */
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px #d35400;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 0.2rem 1rem; /* Adjust padding for smaller width */
+    width: auto; /* Allow the button to adapt to content */
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center; /* Center-align text */
+    margin: 0 auto; /* Center horizontally within the form */
+}
+.button1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.skill-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-details {
+    max-width: 70%;
+}
+
+.skill-actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #d35400;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
